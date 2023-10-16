@@ -36,8 +36,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext js,jsx,ts,tsx && npm run prettier",
-    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx,json}'",
+    "lint": "npx eslint . --ext js,jsx,ts,tsx && npm run prettier",
+    "lint:fix": "eslint --fix js,jsx,ts,tsx",
     "format": "prettier --write 'src/**/*.{ts,tsx,css,md,json}' --config ./.prettierrc",
     "prettier": "npx prettier . --check",
     "test": "react-scripts test  --colors --passWithNoTests"
