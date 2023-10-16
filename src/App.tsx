@@ -1,19 +1,11 @@
 import React from 'react';
 
-// import { auxiliaryFunctions } from './index.js';
-import './App.css';
-// import './index.js';
-import { Header, Introduction } from './components/index';
-
 function App() {
+  const tal = 'teste'
   return (
     <div className="App">
-      REACT
-      {/* <Header />
-      <section className="section_introduction ">
-        <Introduction />
-        <canvas id="canvas1"></canvas>
-      </section> */}
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
     </div>
   );
 }

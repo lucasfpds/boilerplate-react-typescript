@@ -1,2 +1,0 @@
-export const SMALL_LAPTOP_BREAKPOINT = 1024;
-export const MOBILE_BREAKPOINT = 767;
