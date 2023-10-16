@@ -24,5 +24,5 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Prettier Check
-        run: npx prettier . --check
+      - name: lint Check
+        run: npm run lint
