@@ -1,0 +1,5 @@
+src/locales/*.json
+package.json
+coverage/*
+build/*
+tsconfig.json
