@@ -2,72 +2,28 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "__test__/*": [
-        "../__test__/*"
-      ],
-      "__fixtures__/*": [
-        "../__fixtures__/*"
-      ],
-      "components/*": [
-        "./components/*"
-      ],
-      "constants/*": [
-        "./constants/*"
-      ],
-      "contexts/*": [
-        "./contexts/*"
-      ],
-      "hooks/*": [
-        "./hooks/*"
-      ],
-      "images/*": [
-        "./images/*"
-      ],
-      "locales/*": [
-        "./locales/*"
-      ],
-      "mappers/*": [
-        "./mappers/*"
-      ],
-      "middlewares/*": [
-        "./middlewares/*"
-      ],
-      "modules/*": [
-        "./modules/*"
-      ],
-      "pages/*": [
-        "./pages/*"
-      ],
-      "parsers/*": [
-        "./parsers/*"
-      ],
-      "providers/*": [
-        "./providers/*"
-      ],
-      "reducers/*": [
-        "./reducers/*"
-      ],
-      "selectors/*": [
-        "./selectors/*"
-      ],
-      "services/*": [
-        "./services/*"
-      ],
-      "stores/*": [
-        "./stores/*"
-      ],
-      "types/*": [
-        "./types/*"
-      ],
-      "validations/*": [
-        "./validations/*"
-      ],
-      "schemas/*": [
-        "./schemas/*"
-      ],
-      "aboyeur/*": [
-        "./aboyeur/*"
-      ]
+      "__test__/*": ["../__test__/*"],
+      "__fixtures__/*": ["../__fixtures__/*"],
+      "components/*": ["./components/*"],
+      "constants/*": ["./constants/*"],
+      "contexts/*": ["./contexts/*"],
+      "hooks/*": ["./hooks/*"],
+      "images/*": ["./images/*"],
+      "locales/*": ["./locales/*"],
+      "mappers/*": ["./mappers/*"],
+      "middlewares/*": ["./middlewares/*"],
+      "modules/*": ["./modules/*"],
+      "pages/*": ["./pages/*"],
+      "parsers/*": ["./parsers/*"],
+      "providers/*": ["./providers/*"],
+      "reducers/*": ["./reducers/*"],
+      "selectors/*": ["./selectors/*"],
+      "services/*": ["./services/*"],
+      "stores/*": ["./stores/*"],
+      "types/*": ["./types/*"],
+      "validations/*": ["./validations/*"],
+      "schemas/*": ["./schemas/*"],
+      "aboyeur/*": ["./aboyeur/*"]
     }
   }
 }
